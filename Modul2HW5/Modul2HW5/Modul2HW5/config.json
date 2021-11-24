@@ -1,0 +1,9 @@
+{
+  "Logger": {
+    "TimeFormat": "hh.mm.ss dd.MM.yyyy",
+    "FileName": null,
+    "FileExtensions": ".txt",
+    "DirectoryName": "Logger reports",
+    "DirectoryPath": "C:\\Users\\admin\\source\\repos\\Sofia-Rutskaya\\Modul2HW5\\Modul2HW5\\Modul2HW5\\Modul2HW5"
+  }
+}
