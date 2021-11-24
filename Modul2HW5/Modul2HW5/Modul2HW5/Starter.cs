@@ -29,8 +29,9 @@ namespace Modul2HW5
         {
             var configFile = File.ReadAllText("config.json");
             var config = JsonConvert.DeserializeObject<Config>(configFile);
+            _log.SetConfig(config);
 
-            for (var i = 0; i < 1; i++)
+            for (var i = 0; i < 100; i++)
             {
                 try
                 {
@@ -49,13 +50,15 @@ namespace Modul2HW5
                 }
                 catch (BusinessException ex)
                 {
-                    _log.LogWarning($"Action got this custom Exception : {ex}");
+                    _log.LogWarning($"Action got this custom Exception : {ex.Message}");
                 }
                 catch (Exception ex)
                 {
-                    _log.LogError($"Action failed by reason: {ex}");
+                    _log.LogError($"Action failed by reason: {ex.Message}");
                 }
             }
+
+            _log.EndWork();
         }
     }
 }

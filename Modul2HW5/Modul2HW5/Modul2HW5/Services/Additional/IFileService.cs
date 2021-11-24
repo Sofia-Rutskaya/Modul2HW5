@@ -9,7 +9,7 @@ namespace Modul2HW5.Services.Additional
 {
     public interface IFileService
     {
-        public void SaveInFile();
+        public void SaveInFile(string message);
         public void CloseFile();
         public void InitDirectory(Config config);
     }

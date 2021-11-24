@@ -1,4 +1,9 @@
 ﻿using System;
+using Modul2HW5.Configs;
+using Modul2HW5.Services;
+using Modul2HW5.Services.Additional;
+
+using Microsoft.Extensions.DependencyInjection;
 
 namespace Modul2HW5
 {
@@ -6,7 +11,13 @@ namespace Modul2HW5
     {
         public static void Main(string[] args)
         {
-            var start = new Starter();
+            var serviceProvider = new ServiceCollection()
+                .AddSingleton<ILogger, Logger>()
+                .AddSingleton<IFileService, FileService>()
+                .AddTransient<Starter>()
+                .BuildServiceProvider();
+
+            var start = serviceProvider.GetService<Starter>();
             start.Run();
         }
     }

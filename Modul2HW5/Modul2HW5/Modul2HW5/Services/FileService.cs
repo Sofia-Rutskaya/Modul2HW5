@@ -15,6 +15,7 @@ namespace Modul2HW5.Services
         private readonly DateTime _date;
         private string[] _files;
         private FileStream _newFile;
+        private byte[] _buffer;
 
         // private byte[] _buffer;
         public FileService(Config config)
@@ -46,8 +47,10 @@ namespace Modul2HW5.Services
             // file.Close();
         }
 
-        void IFileService.SaveInFile()
+        void IFileService.SaveInFile(string message)
         {
+            _buffer = System.Text.Encoding.Default.GetBytes($"{message} {Environment.NewLine}");
+            _newFile.Write(_buffer, 0, _buffer.Length);
         }
 
         void IFileService.CloseFile()

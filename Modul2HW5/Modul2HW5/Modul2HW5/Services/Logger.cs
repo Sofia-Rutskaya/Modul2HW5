@@ -3,13 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Modul2HW5.Configs;
+using Modul2HW5.Services.Additional;
 
 namespace Modul2HW5.Services
 {
     public class Logger : ILogger
     {
         private static readonly Logger _instance = new Logger();
-        private readonly StringBuilder _logs;
+        private IFileService _fileService;
 
         static Logger()
         {
@@ -17,7 +19,6 @@ namespace Modul2HW5.Services
 
         private Logger()
         {
-            _logs = new StringBuilder();
         }
 
         public static Logger Instance => _instance;
@@ -37,10 +38,21 @@ namespace Modul2HW5.Services
             Log(LogType.Warning, message);
         }
 
+        void ILogger.SetConfig(Config config)
+        {
+            _fileService = new FileService(config);
+            _fileService.InitDirectory(config);
+        }
+
+        void ILogger.EndWork()
+        {
+            _fileService.CloseFile();
+        }
+
         private void Log(LogType type, string message)
         {
             var log = $"{DateTime.UtcNow}: {type.ToString()}: {message}";
-            _logs.AppendLine(log);
+            _fileService.SaveInFile(log);
         }
     }
 }

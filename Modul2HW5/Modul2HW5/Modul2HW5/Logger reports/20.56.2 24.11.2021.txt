@@ -1,0 +1,3 @@
+11/24/2021 8:56:02 PM: Warning: Action got this custom Exception : Modul2HW5.BusinessException: Skipped logic in method
+   at Modul2HW5.Services.Actions.Method_2() in C:\Users\admin\source\repos\Sofia-Rutskaya\Modul2HW5\Modul2HW5\Modul2HW5\Modul2HW5\Services\Actions.cs:line 26
+   at Modul2HW5.Starter.Run() in C:\Users\admin\source\repos\Sofia-Rutskaya\Modul2HW5\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 44
