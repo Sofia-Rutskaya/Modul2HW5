@@ -17,7 +17,6 @@ namespace Modul2HW5.Services
         private FileStream _newFile;
         private byte[] _buffer;
 
-        // private byte[] _buffer;
         public FileService(Config config)
         {
             _config = config;
@@ -32,19 +31,11 @@ namespace Modul2HW5.Services
                 directory.Create();
             }
 
-            _files = Directory.GetFiles($"{directory}");
+            ClearDirect(directory);
+
             config.Logger.FileName = $"{_date.Hour}.{_date.Minute}.{_date.Second} {_date.Day}.{_date.Month}.{_date.Year}";
 
             _newFile = new FileStream($"{directory}\\{config.Logger.FileName}{config.Logger.FileExtensions}", FileMode.Append);
-
-            // var file1 = new FileStream($"{directory}\\{config.Logger.FileName}4444{config.Logger.FileExtensions}", FileMode.Append);
-            // var file1 = new FileStream($"{directory}\\{config.Logger.FileName}-1-{config.Logger.FileExtensions}", FileMode.OpenOrCreate);
-            // _buffer = System.Text.Encoding.Default.GetBytes("HAHAHAHAHA");
-            // запись массива байтов в файл
-            // file.Write(_buffer, 0, _buffer.Length);
-            // _buffer = System.Text.Encoding.Default.GetBytes("OLOLOLO");
-            // file1.Write(_buffer, 0, _buffer.Length);
-            // file.Close();
         }
 
         void IFileService.SaveInFile(string message)
@@ -56,6 +47,30 @@ namespace Modul2HW5.Services
         void IFileService.CloseFile()
         {
             _newFile.Close();
+        }
+
+        private void ClearDirect(DirectoryInfo directory)
+        {
+            _files = Directory.GetFiles($"{directory}");
+            if (_files.Length > 3)
+            {
+                foreach (var fileFirst in directory.EnumerateFiles())
+                {
+                    foreach (var fileSecond in directory.EnumerateFiles())
+                    {
+                        if (fileFirst.CreationTime < fileSecond.CreationTime)
+                        {
+                            _files = Directory.GetFiles($"{directory}");
+                            if (_files.Length < 3)
+                            {
+                                break;
+                            }
+
+                            fileFirst.Delete();
+                        }
+                    }
+                }
+            }
         }
     }
 }
