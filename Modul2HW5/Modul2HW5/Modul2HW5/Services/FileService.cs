@@ -52,7 +52,7 @@ namespace Modul2HW5.Services
         private void ClearDirect(DirectoryInfo directory)
         {
             _files = Directory.GetFiles($"{directory}");
-            if (_files.Length > 3)
+            if (_files.Length >= 3)
             {
                 foreach (var fileFirst in directory.EnumerateFiles())
                 {

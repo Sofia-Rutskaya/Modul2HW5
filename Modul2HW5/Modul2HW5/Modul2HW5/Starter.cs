@@ -54,7 +54,7 @@ namespace Modul2HW5
                 }
                 catch (Exception ex)
                 {
-                    _log.LogError($"Action failed by reason: {ex.Message}");
+                    _log.LogError($"Action failed by reason: {ex}");
                 }
             }
 
