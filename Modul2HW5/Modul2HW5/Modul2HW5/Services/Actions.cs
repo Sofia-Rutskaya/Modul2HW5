@@ -8,7 +8,7 @@ namespace Modul2HW5.Services
 {
     public class Actions
     {
-        private readonly Logger _logger;
+        private readonly ILogger _logger;
 
         public Actions()
         {

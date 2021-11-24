@@ -15,15 +15,14 @@ namespace Modul2HW5
     public class Starter
     {
         private readonly Random _rand;
-        private readonly Logger _log = Logger.Instance;
+        private readonly ILogger _log;
         private readonly Actions _actions;
-        private readonly DateTime _date;
-        private string[] _files;
+
         public Starter()
         {
+            _log = Logger.Instance;
             _rand = new Random();
             _actions = new Actions();
-            _date = DateTime.UtcNow;
         }
 
         public void Run()
@@ -31,27 +30,7 @@ namespace Modul2HW5
             var configFile = File.ReadAllText("config.json");
             var config = JsonConvert.DeserializeObject<Config>(configFile);
 
-            var directory = new DirectoryInfo($"{config.Logger.DirectoryPath}\\{config.Logger.DirectoryName}");
-            if (!directory.Exists)
-            {
-                directory.Create();
-            }
-
-            _files = Directory.GetFiles($"{directory}");
-            config.Logger.FileName = $"{_date.Hour}.{_date.Minute}.{_date.Second} {_date.Year}.{_date.Month}.{_date.Day}";
-
-            using (var file = new FileStream($"{directory}\\{config.Logger.FileName}{config.Logger.FileExtensions}", FileMode.Append))
-            {
-                // var file1 = new FileStream($"{directory}\\{config.Logger.FileName}-1-{config.Logger.FileExtensions}", FileMode.OpenOrCreate);
-                byte[] array = System.Text.Encoding.Default.GetBytes("HAHAHAHAHA");
-
-                // запись массива байтов в файл
-                file.Write(array, 0, array.Length);
-                array = System.Text.Encoding.Default.GetBytes("OLOLOLO");
-                file.Write(array, 0, array.Length);
-            }
-
-            for (var i = 0; i < 100; i++)
+            for (var i = 0; i < 1; i++)
             {
                 try
                 {
