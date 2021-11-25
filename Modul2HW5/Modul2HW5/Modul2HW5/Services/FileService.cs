@@ -37,7 +37,7 @@ namespace Modul2HW5.Services
 
             ClearDirect();
 
-            config.Logger.FileName = $"{_date.Hour}.{_date.Minute}.{_date.Second} {_date.Day}.{_date.Month}.{_date.Year}";
+            config.Logger.FileName = $"{_date.ToString(config.Logger.TimeFormat)}";
             _newFile = new FileStream($"{directory}\\{config.Logger.FileName}{config.Logger.FileExtensions}", FileMode.Append);
         }
 
