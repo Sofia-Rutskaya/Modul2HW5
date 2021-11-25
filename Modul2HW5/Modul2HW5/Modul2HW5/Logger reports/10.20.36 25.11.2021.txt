@@ -1,0 +1,154 @@
+11/25/2021 10:20:36 AM: Info: Start method: Method_1 
+11/25/2021 10:20:37 AM: Error: Action failed by reason: System.Exception: I broke a logic
+   at Modul2HW5.Services.Actions.Method_3() in C:\Users\admin\source\repos\Sofia-Rutskaya\Modul2HW5\Modul2HW5\Modul2HW5\Modul2HW5\Services\Actions.cs:line 31
+   at Modul2HW5.Starter.Run() in C:\Users\admin\source\repos\Sofia-Rutskaya\Modul2HW5\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 47 
+11/25/2021 10:20:37 AM: Info: Start method: Method_1 
+11/25/2021 10:20:37 AM: Error: Action failed by reason: System.Exception: I broke a logic
+   at Modul2HW5.Services.Actions.Method_3() in C:\Users\admin\source\repos\Sofia-Rutskaya\Modul2HW5\Modul2HW5\Modul2HW5\Modul2HW5\Services\Actions.cs:line 31
+   at Modul2HW5.Starter.Run() in C:\Users\admin\source\repos\Sofia-Rutskaya\Modul2HW5\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 47 
+11/25/2021 10:20:37 AM: Warning: Action got this custom Exception : Skipped logic in method 
+11/25/2021 10:20:37 AM: Error: Action failed by reason: System.Exception: I broke a logic
+   at Modul2HW5.Services.Actions.Method_3() in C:\Users\admin\source\repos\Sofia-Rutskaya\Modul2HW5\Modul2HW5\Modul2HW5\Modul2HW5\Services\Actions.cs:line 31
+   at Modul2HW5.Starter.Run() in C:\Users\admin\source\repos\Sofia-Rutskaya\Modul2HW5\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 47 
+11/25/2021 10:20:37 AM: Error: Action failed by reason: System.Exception: I broke a logic
+   at Modul2HW5.Services.Actions.Method_3() in C:\Users\admin\source\repos\Sofia-Rutskaya\Modul2HW5\Modul2HW5\Modul2HW5\Modul2HW5\Services\Actions.cs:line 31
+   at Modul2HW5.Starter.Run() in C:\Users\admin\source\repos\Sofia-Rutskaya\Modul2HW5\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 47 
+11/25/2021 10:20:37 AM: Info: Start method: Method_1 
+11/25/2021 10:20:37 AM: Info: Start method: Method_1 
+11/25/2021 10:20:37 AM: Warning: Action got this custom Exception : Skipped logic in method 
+11/25/2021 10:20:38 AM: Warning: Action got this custom Exception : Skipped logic in method 
+11/25/2021 10:20:38 AM: Info: Start method: Method_1 
+11/25/2021 10:20:38 AM: Warning: Action got this custom Exception : Skipped logic in method 
+11/25/2021 10:20:38 AM: Warning: Action got this custom Exception : Skipped logic in method 
+11/25/2021 10:20:38 AM: Info: Start method: Method_1 
+11/25/2021 10:20:38 AM: Warning: Action got this custom Exception : Skipped logic in method 
+11/25/2021 10:20:38 AM: Info: Start method: Method_1 
+11/25/2021 10:20:38 AM: Error: Action failed by reason: System.Exception: I broke a logic
+   at Modul2HW5.Services.Actions.Method_3() in C:\Users\admin\source\repos\Sofia-Rutskaya\Modul2HW5\Modul2HW5\Modul2HW5\Modul2HW5\Services\Actions.cs:line 31
+   at Modul2HW5.Starter.Run() in C:\Users\admin\source\repos\Sofia-Rutskaya\Modul2HW5\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 47 
+11/25/2021 10:20:38 AM: Info: Start method: Method_1 
+11/25/2021 10:20:38 AM: Warning: Action got this custom Exception : Skipped logic in method 
+11/25/2021 10:20:38 AM: Error: Action failed by reason: System.Exception: I broke a logic
+   at Modul2HW5.Services.Actions.Method_3() in C:\Users\admin\source\repos\Sofia-Rutskaya\Modul2HW5\Modul2HW5\Modul2HW5\Modul2HW5\Services\Actions.cs:line 31
+   at Modul2HW5.Starter.Run() in C:\Users\admin\source\repos\Sofia-Rutskaya\Modul2HW5\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 47 
+11/25/2021 10:20:38 AM: Warning: Action got this custom Exception : Skipped logic in method 
+11/25/2021 10:20:38 AM: Warning: Action got this custom Exception : Skipped logic in method 
+11/25/2021 10:20:38 AM: Warning: Action got this custom Exception : Skipped logic in method 
+11/25/2021 10:20:38 AM: Warning: Action got this custom Exception : Skipped logic in method 
+11/25/2021 10:20:38 AM: Error: Action failed by reason: System.Exception: I broke a logic
+   at Modul2HW5.Services.Actions.Method_3() in C:\Users\admin\source\repos\Sofia-Rutskaya\Modul2HW5\Modul2HW5\Modul2HW5\Modul2HW5\Services\Actions.cs:line 31
+   at Modul2HW5.Starter.Run() in C:\Users\admin\source\repos\Sofia-Rutskaya\Modul2HW5\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 47 
+11/25/2021 10:20:38 AM: Info: Start method: Method_1 
+11/25/2021 10:20:38 AM: Info: Start method: Method_1 
+11/25/2021 10:20:38 AM: Warning: Action got this custom Exception : Skipped logic in method 
+11/25/2021 10:20:38 AM: Error: Action failed by reason: System.Exception: I broke a logic
+   at Modul2HW5.Services.Actions.Method_3() in C:\Users\admin\source\repos\Sofia-Rutskaya\Modul2HW5\Modul2HW5\Modul2HW5\Modul2HW5\Services\Actions.cs:line 31
+   at Modul2HW5.Starter.Run() in C:\Users\admin\source\repos\Sofia-Rutskaya\Modul2HW5\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 47 
+11/25/2021 10:20:38 AM: Error: Action failed by reason: System.Exception: I broke a logic
+   at Modul2HW5.Services.Actions.Method_3() in C:\Users\admin\source\repos\Sofia-Rutskaya\Modul2HW5\Modul2HW5\Modul2HW5\Modul2HW5\Services\Actions.cs:line 31
+   at Modul2HW5.Starter.Run() in C:\Users\admin\source\repos\Sofia-Rutskaya\Modul2HW5\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 47 
+11/25/2021 10:20:38 AM: Info: Start method: Method_1 
+11/25/2021 10:20:38 AM: Info: Start method: Method_1 
+11/25/2021 10:20:38 AM: Warning: Action got this custom Exception : Skipped logic in method 
+11/25/2021 10:20:38 AM: Error: Action failed by reason: System.Exception: I broke a logic
+   at Modul2HW5.Services.Actions.Method_3() in C:\Users\admin\source\repos\Sofia-Rutskaya\Modul2HW5\Modul2HW5\Modul2HW5\Modul2HW5\Services\Actions.cs:line 31
+   at Modul2HW5.Starter.Run() in C:\Users\admin\source\repos\Sofia-Rutskaya\Modul2HW5\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 47 
+11/25/2021 10:20:38 AM: Warning: Action got this custom Exception : Skipped logic in method 
+11/25/2021 10:20:38 AM: Warning: Action got this custom Exception : Skipped logic in method 
+11/25/2021 10:20:38 AM: Warning: Action got this custom Exception : Skipped logic in method 
+11/25/2021 10:20:38 AM: Error: Action failed by reason: System.Exception: I broke a logic
+   at Modul2HW5.Services.Actions.Method_3() in C:\Users\admin\source\repos\Sofia-Rutskaya\Modul2HW5\Modul2HW5\Modul2HW5\Modul2HW5\Services\Actions.cs:line 31
+   at Modul2HW5.Starter.Run() in C:\Users\admin\source\repos\Sofia-Rutskaya\Modul2HW5\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 47 
+11/25/2021 10:20:38 AM: Error: Action failed by reason: System.Exception: I broke a logic
+   at Modul2HW5.Services.Actions.Method_3() in C:\Users\admin\source\repos\Sofia-Rutskaya\Modul2HW5\Modul2HW5\Modul2HW5\Modul2HW5\Services\Actions.cs:line 31
+   at Modul2HW5.Starter.Run() in C:\Users\admin\source\repos\Sofia-Rutskaya\Modul2HW5\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 47 
+11/25/2021 10:20:38 AM: Info: Start method: Method_1 
+11/25/2021 10:20:38 AM: Info: Start method: Method_1 
+11/25/2021 10:20:38 AM: Warning: Action got this custom Exception : Skipped logic in method 
+11/25/2021 10:20:38 AM: Warning: Action got this custom Exception : Skipped logic in method 
+11/25/2021 10:20:38 AM: Info: Start method: Method_1 
+11/25/2021 10:20:38 AM: Warning: Action got this custom Exception : Skipped logic in method 
+11/25/2021 10:20:38 AM: Info: Start method: Method_1 
+11/25/2021 10:20:38 AM: Warning: Action got this custom Exception : Skipped logic in method 
+11/25/2021 10:20:38 AM: Warning: Action got this custom Exception : Skipped logic in method 
+11/25/2021 10:20:38 AM: Warning: Action got this custom Exception : Skipped logic in method 
+11/25/2021 10:20:38 AM: Warning: Action got this custom Exception : Skipped logic in method 
+11/25/2021 10:20:38 AM: Error: Action failed by reason: System.Exception: I broke a logic
+   at Modul2HW5.Services.Actions.Method_3() in C:\Users\admin\source\repos\Sofia-Rutskaya\Modul2HW5\Modul2HW5\Modul2HW5\Modul2HW5\Services\Actions.cs:line 31
+   at Modul2HW5.Starter.Run() in C:\Users\admin\source\repos\Sofia-Rutskaya\Modul2HW5\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 47 
+11/25/2021 10:20:38 AM: Info: Start method: Method_1 
+11/25/2021 10:20:38 AM: Warning: Action got this custom Exception : Skipped logic in method 
+11/25/2021 10:20:38 AM: Warning: Action got this custom Exception : Skipped logic in method 
+11/25/2021 10:20:38 AM: Warning: Action got this custom Exception : Skipped logic in method 
+11/25/2021 10:20:38 AM: Warning: Action got this custom Exception : Skipped logic in method 
+11/25/2021 10:20:39 AM: Warning: Action got this custom Exception : Skipped logic in method 
+11/25/2021 10:20:39 AM: Warning: Action got this custom Exception : Skipped logic in method 
+11/25/2021 10:20:39 AM: Warning: Action got this custom Exception : Skipped logic in method 
+11/25/2021 10:20:39 AM: Error: Action failed by reason: System.Exception: I broke a logic
+   at Modul2HW5.Services.Actions.Method_3() in C:\Users\admin\source\repos\Sofia-Rutskaya\Modul2HW5\Modul2HW5\Modul2HW5\Modul2HW5\Services\Actions.cs:line 31
+   at Modul2HW5.Starter.Run() in C:\Users\admin\source\repos\Sofia-Rutskaya\Modul2HW5\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 47 
+11/25/2021 10:20:39 AM: Error: Action failed by reason: System.Exception: I broke a logic
+   at Modul2HW5.Services.Actions.Method_3() in C:\Users\admin\source\repos\Sofia-Rutskaya\Modul2HW5\Modul2HW5\Modul2HW5\Modul2HW5\Services\Actions.cs:line 31
+   at Modul2HW5.Starter.Run() in C:\Users\admin\source\repos\Sofia-Rutskaya\Modul2HW5\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 47 
+11/25/2021 10:20:39 AM: Warning: Action got this custom Exception : Skipped logic in method 
+11/25/2021 10:20:39 AM: Warning: Action got this custom Exception : Skipped logic in method 
+11/25/2021 10:20:39 AM: Warning: Action got this custom Exception : Skipped logic in method 
+11/25/2021 10:20:39 AM: Info: Start method: Method_1 
+11/25/2021 10:20:39 AM: Info: Start method: Method_1 
+11/25/2021 10:20:39 AM: Error: Action failed by reason: System.Exception: I broke a logic
+   at Modul2HW5.Services.Actions.Method_3() in C:\Users\admin\source\repos\Sofia-Rutskaya\Modul2HW5\Modul2HW5\Modul2HW5\Modul2HW5\Services\Actions.cs:line 31
+   at Modul2HW5.Starter.Run() in C:\Users\admin\source\repos\Sofia-Rutskaya\Modul2HW5\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 47 
+11/25/2021 10:20:39 AM: Error: Action failed by reason: System.Exception: I broke a logic
+   at Modul2HW5.Services.Actions.Method_3() in C:\Users\admin\source\repos\Sofia-Rutskaya\Modul2HW5\Modul2HW5\Modul2HW5\Modul2HW5\Services\Actions.cs:line 31
+   at Modul2HW5.Starter.Run() in C:\Users\admin\source\repos\Sofia-Rutskaya\Modul2HW5\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 47 
+11/25/2021 10:20:39 AM: Warning: Action got this custom Exception : Skipped logic in method 
+11/25/2021 10:20:39 AM: Info: Start method: Method_1 
+11/25/2021 10:20:39 AM: Warning: Action got this custom Exception : Skipped logic in method 
+11/25/2021 10:20:39 AM: Info: Start method: Method_1 
+11/25/2021 10:20:39 AM: Warning: Action got this custom Exception : Skipped logic in method 
+11/25/2021 10:20:39 AM: Info: Start method: Method_1 
+11/25/2021 10:20:39 AM: Warning: Action got this custom Exception : Skipped logic in method 
+11/25/2021 10:20:39 AM: Info: Start method: Method_1 
+11/25/2021 10:20:39 AM: Info: Start method: Method_1 
+11/25/2021 10:20:39 AM: Info: Start method: Method_1 
+11/25/2021 10:20:39 AM: Error: Action failed by reason: System.Exception: I broke a logic
+   at Modul2HW5.Services.Actions.Method_3() in C:\Users\admin\source\repos\Sofia-Rutskaya\Modul2HW5\Modul2HW5\Modul2HW5\Modul2HW5\Services\Actions.cs:line 31
+   at Modul2HW5.Starter.Run() in C:\Users\admin\source\repos\Sofia-Rutskaya\Modul2HW5\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 47 
+11/25/2021 10:20:39 AM: Warning: Action got this custom Exception : Skipped logic in method 
+11/25/2021 10:20:39 AM: Error: Action failed by reason: System.Exception: I broke a logic
+   at Modul2HW5.Services.Actions.Method_3() in C:\Users\admin\source\repos\Sofia-Rutskaya\Modul2HW5\Modul2HW5\Modul2HW5\Modul2HW5\Services\Actions.cs:line 31
+   at Modul2HW5.Starter.Run() in C:\Users\admin\source\repos\Sofia-Rutskaya\Modul2HW5\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 47 
+11/25/2021 10:20:39 AM: Error: Action failed by reason: System.Exception: I broke a logic
+   at Modul2HW5.Services.Actions.Method_3() in C:\Users\admin\source\repos\Sofia-Rutskaya\Modul2HW5\Modul2HW5\Modul2HW5\Modul2HW5\Services\Actions.cs:line 31
+   at Modul2HW5.Starter.Run() in C:\Users\admin\source\repos\Sofia-Rutskaya\Modul2HW5\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 47 
+11/25/2021 10:20:39 AM: Info: Start method: Method_1 
+11/25/2021 10:20:39 AM: Info: Start method: Method_1 
+11/25/2021 10:20:39 AM: Info: Start method: Method_1 
+11/25/2021 10:20:39 AM: Error: Action failed by reason: System.Exception: I broke a logic
+   at Modul2HW5.Services.Actions.Method_3() in C:\Users\admin\source\repos\Sofia-Rutskaya\Modul2HW5\Modul2HW5\Modul2HW5\Modul2HW5\Services\Actions.cs:line 31
+   at Modul2HW5.Starter.Run() in C:\Users\admin\source\repos\Sofia-Rutskaya\Modul2HW5\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 47 
+11/25/2021 10:20:39 AM: Error: Action failed by reason: System.Exception: I broke a logic
+   at Modul2HW5.Services.Actions.Method_3() in C:\Users\admin\source\repos\Sofia-Rutskaya\Modul2HW5\Modul2HW5\Modul2HW5\Modul2HW5\Services\Actions.cs:line 31
+   at Modul2HW5.Starter.Run() in C:\Users\admin\source\repos\Sofia-Rutskaya\Modul2HW5\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 47 
+11/25/2021 10:20:39 AM: Info: Start method: Method_1 
+11/25/2021 10:20:39 AM: Info: Start method: Method_1 
+11/25/2021 10:20:39 AM: Info: Start method: Method_1 
+11/25/2021 10:20:39 AM: Error: Action failed by reason: System.Exception: I broke a logic
+   at Modul2HW5.Services.Actions.Method_3() in C:\Users\admin\source\repos\Sofia-Rutskaya\Modul2HW5\Modul2HW5\Modul2HW5\Modul2HW5\Services\Actions.cs:line 31
+   at Modul2HW5.Starter.Run() in C:\Users\admin\source\repos\Sofia-Rutskaya\Modul2HW5\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 47 
+11/25/2021 10:20:39 AM: Error: Action failed by reason: System.Exception: I broke a logic
+   at Modul2HW5.Services.Actions.Method_3() in C:\Users\admin\source\repos\Sofia-Rutskaya\Modul2HW5\Modul2HW5\Modul2HW5\Modul2HW5\Services\Actions.cs:line 31
+   at Modul2HW5.Starter.Run() in C:\Users\admin\source\repos\Sofia-Rutskaya\Modul2HW5\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 47 
+11/25/2021 10:20:39 AM: Info: Start method: Method_1 
+11/25/2021 10:20:39 AM: Info: Start method: Method_1 
+11/25/2021 10:20:39 AM: Warning: Action got this custom Exception : Skipped logic in method 
+11/25/2021 10:20:39 AM: Error: Action failed by reason: System.Exception: I broke a logic
+   at Modul2HW5.Services.Actions.Method_3() in C:\Users\admin\source\repos\Sofia-Rutskaya\Modul2HW5\Modul2HW5\Modul2HW5\Modul2HW5\Services\Actions.cs:line 31
+   at Modul2HW5.Starter.Run() in C:\Users\admin\source\repos\Sofia-Rutskaya\Modul2HW5\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 47 
+11/25/2021 10:20:39 AM: Info: Start method: Method_1 
+11/25/2021 10:20:39 AM: Error: Action failed by reason: System.Exception: I broke a logic
+   at Modul2HW5.Services.Actions.Method_3() in C:\Users\admin\source\repos\Sofia-Rutskaya\Modul2HW5\Modul2HW5\Modul2HW5\Modul2HW5\Services\Actions.cs:line 31
+   at Modul2HW5.Starter.Run() in C:\Users\admin\source\repos\Sofia-Rutskaya\Modul2HW5\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 47 
+11/25/2021 10:20:39 AM: Error: Action failed by reason: System.Exception: I broke a logic
+   at Modul2HW5.Services.Actions.Method_3() in C:\Users\admin\source\repos\Sofia-Rutskaya\Modul2HW5\Modul2HW5\Modul2HW5\Modul2HW5\Services\Actions.cs:line 31
+   at Modul2HW5.Starter.Run() in C:\Users\admin\source\repos\Sofia-Rutskaya\Modul2HW5\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 47 

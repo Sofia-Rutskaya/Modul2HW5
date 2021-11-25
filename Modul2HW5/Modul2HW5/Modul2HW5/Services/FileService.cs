@@ -13,7 +13,8 @@ namespace Modul2HW5.Services
     {
         private readonly Config _config;
         private readonly DateTime _date;
-        private string[] _files;
+        private readonly SortDirectoryFiles _sortDirectoryFiles;
+        private FileInfo[] _files;
         private FileStream _newFile;
         private byte[] _buffer;
 
@@ -21,6 +22,7 @@ namespace Modul2HW5.Services
         {
             _config = config;
             _date = DateTime.UtcNow;
+            _sortDirectoryFiles = new SortDirectoryFiles();
         }
 
         void IFileService.InitDirectory(Config config)
@@ -31,10 +33,11 @@ namespace Modul2HW5.Services
                 directory.Create();
             }
 
-            ClearDirect(directory);
+            _files = new FileInfo($"{directory}\\{config.Logger.FileName}{config.Logger.FileExtensions}").Directory.GetFiles("*");
+
+            ClearDirect();
 
             config.Logger.FileName = $"{_date.Hour}.{_date.Minute}.{_date.Second} {_date.Day}.{_date.Month}.{_date.Year}";
-
             _newFile = new FileStream($"{directory}\\{config.Logger.FileName}{config.Logger.FileExtensions}", FileMode.Append);
         }
 
@@ -49,26 +52,15 @@ namespace Modul2HW5.Services
             _newFile.Close();
         }
 
-        private void ClearDirect(DirectoryInfo directory)
+        private void ClearDirect()
         {
-            _files = Directory.GetFiles($"{directory}");
             if (_files.Length >= 3)
             {
-                foreach (var fileFirst in directory.EnumerateFiles())
-                {
-                    foreach (var fileSecond in directory.EnumerateFiles())
-                    {
-                        if (fileFirst.CreationTime < fileSecond.CreationTime)
-                        {
-                            _files = Directory.GetFiles($"{directory}");
-                            if (_files.Length < 3)
-                            {
-                                break;
-                            }
+                Array.Sort(_files, new SortDirectoryFiles());
 
-                            fileFirst.Delete();
-                        }
-                    }
+                for (var i = 0; i < _files.Length - 2; i++)
+                {
+                    _files[i].Delete();
                 }
             }
         }
